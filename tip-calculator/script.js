@@ -72,7 +72,7 @@ const decreasePeople = () => {
   // if amount is 1 or less simply return
   // (a.k.a you can't decrease the number of people to 0 or negative!)
   if(number <= 1){
-    alert('NonSense how can you split with 0 person')
+    alert('Enter wrong input please check it again')
     return 
   }
   
